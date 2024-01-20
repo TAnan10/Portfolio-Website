@@ -337,7 +337,7 @@ section .home-content .home-info {
 }
 
 .project-img-one {
-  height: 300px;
+  height: 350px;
   width: 100%;
   background: url("../Images/pro1.png");
   background-size: cover;
@@ -347,7 +347,7 @@ section .home-content .home-info {
 }
 
 .project-img-two {
-  height: 300px;
+  height: 350px;
   width: 100%;
   background: url("../Images/ecom.png");
   background-size: cover;
@@ -357,9 +357,9 @@ section .home-content .home-info {
 }
 
 .project-img-three {
-  height: 300px;
+  height: 350px;
   width: 100%;
-  background: url("../Images/portfolio-img.png");
+  background: url("../Images/pro-three.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
