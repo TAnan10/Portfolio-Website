@@ -401,6 +401,16 @@ section .home-content .home-info {
   font-weight: 600;
   cursor: pointer;
 }
+
+.project-content-one button a {
+  text-decoration: none;
+  color: black;
+}
+
+.project-content-two button a {
+  text-decoration: none;
+  color: black;
+}
 /* Projects */
 
 /* Contact */
@@ -683,10 +693,12 @@ section .home-content .home-info {
   }
 
   .about-text {
-    width: 270px
+    width: 270px;
   }
 
-  .project-img-one, .project-img-two, .project-img-three {
+  .project-img-one,
+  .project-img-two,
+  .project-img-three {
     height: 180px;
   }
 
@@ -711,4 +723,3 @@ section .home-content .home-info {
     width: 150px;
   }
 }
-

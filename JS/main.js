@@ -4,7 +4,7 @@ const menu = document.querySelector(".fa-bars");
 menu.addEventListener("click", () => {
   const navbar = document.querySelector(".sections");
   navbar.classList.toggle("active");
-})
+});
 
 // Skills
 let circularProgressList = document.querySelectorAll(".circular-progress");
@@ -16,9 +16,9 @@ circularProgressList.forEach((circularProgress) => {
   let progressEndValueCss = 90;
   let progressEndValueJavascript = 80;
   let progressEndValueWeb = 70;
-  let progressEndValueFigma = 60;
-  let progressEndValueSeo = 60;
-  let speed = 30;
+  let progressEndValueFigma = 70;
+  let progressEndValueSeo = 80;
+  let speed = 15;
 
   let progress = setInterval(() => {
     progressStartValue++;
